@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'playstation';
+    src: url('fontes/andreas.ttf') format('opentype'); 
+    font-weight: normal;
+   
+}
+@font-face {
+    font-family:'novaera';
+    src: url('fontes/PLATION.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0:#0332FA;
+    --cor1:#2A47C7;
+    --cor2:#3D4D94;
+    --cor3:#3B4261;
+    --cor4:#292B33;
+    --cor5:black; 
+
+    --font-padrão: arial, verdana, helvetica;
+
+    --font-playstation: 'playstation', cursive;
+
+    --font-novaera:'novaera',cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:#3B4261; 
+
+}
+main p {
+      margin: 15px 0px 15px 0px;
+      text-align: justify;
+      text-align: 30px;
+      font-size: 1em;
+      line-height: 1.3em;
+   
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
+    min-height: 125px;
+    text-align: center;
+    padding-top: 30px;
+} 
+header > h1 {
+   
+    color: white;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.199);
+    font-family: var(--font-padrão);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 25px;
+   
+}
+
+header > p {
+    font-family: var(--font-padrão);
+    color: white;
+font-size: 1.2em;
+max-width: 500px;
+margin: auto;
+text-shadow: 3px 3px 0px #0330fa5d;
+}
+nav {
+    background-color:black;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.26);
+}
+nav > a {
+    color: #0332FA;
+    padding: 11px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+nav > a:hover {
+    background-color: #292B33;
+    color: white;
+}
+
+main {
+    min-width:500px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px;
+    background-color: white;
+    box-shadow: 0px 10px 10px  var(--cor0);
+    border-radius: 0px 0px 20px 20px  ; 
+}
+
+
+
+main h1 {
+    
+    font-size: 35px;
+    text-align: center;
+    
+    font-size: 1.8;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor0));
+}
+
+main h2{ 
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 70px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-family: var(--font-playstation);
+
+}
+ main h3 {
+    padding: 20px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding-top:2px;
+    padding-bottom: 2px;
+    font-family: var(--font-playstation);
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+}
+
+video {
+    background-color: white;
+margin: 0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 50%;
+position: relative;
+}
+
+video {
+    position: absolute; 
+    top: 20%;
+    left: 16%;
+    width: 65%;
+    height: 65%;
+}
+
+div.video {
+background-color: white;
+margin: 0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 50%;
+position: relative;
+}
+ 
+div.video > iframe {
+    position: absolute; 
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+aside > p {
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+video {
+   
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    
+    position: relative;    
+}
+div.youtube {
+   padding-left: 30px;
+    padding-top: 5px;
+    margin: 0px -20px 30px -20px;
+    padding: 5px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+div.youtube > iframe{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+aside > h3 {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-family: var(--font-playstation);
+    text-align: left;
+    text-indent: 10px;
+
+}
+p {
+    text-align: center;
+    font-family:var(--font-novaera) ;
+}
+
+footer {
+    background-color: #0332FA;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
