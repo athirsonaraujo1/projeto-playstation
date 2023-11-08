@@ -92,7 +92,7 @@ main {
     max-width: 1000px;
     margin: auto;
     padding: 70px;
-     background-color: white;
+     background-color: rgb(253, 3, 3);
     box-shadow: 0px 10px 10px  var(--cor0);
     border-radius: 0px 0px 20px 20px  ; 
 }
